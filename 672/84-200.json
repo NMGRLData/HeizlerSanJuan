@@ -1,0 +1,247 @@
+{
+    "acquisition_software": "pychron 20.1",
+    "aliquot": 200,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.1",
+    "comment": "C:11 DS",
+    "commit": "a01607515b8cb144e14b5bd900d76befc92ab78c",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": 1411191636319483484,
+            "level": 30,
+            "location": "scripts/conditionals/kevin.yaml",
+            "ntrips": 1,
+            "start_count": 15,
+            "teststr": "Ar40>2500.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": 1089128279205052012,
+            "level": 30,
+            "location": "scripts/conditionals/kevin.yaml",
+            "ntrips": 1,
+            "start_count": 25,
+            "teststr": "Ar40>1500.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": 6644512184340959208,
+            "level": 30,
+            "location": "scripts/conditionals/kevin.yaml",
+            "ntrips": 1,
+            "start_count": 120,
+            "teststr": "age>62.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": 5273898486021797597,
+            "level": 30,
+            "location": "scripts/conditionals/kevin.yaml",
+            "ntrips": 1,
+            "start_count": 60,
+            "teststr": "Ar39.bs_corrected<0.2"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 5,
+            "hash_id": -2158454826336622635,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "H1.bs<-5.0"
+        },
+        {
+            "analysis_types": [
+                "air"
+            ],
+            "frequency": 5,
+            "hash_id": -6635029914085208474,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<0.01"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 5,
+            "hash_id": 7559241465943741474,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36<0.001"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 3,
+            "hash_id": 5079921929651891901,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "Ar40.bs_corrected>5000.0"
+        }
+    ],
+    "data_reduction_software": "pychron 20.1",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 0.09717
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0.01
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 0.010546
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 0.09392
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2020-02-03T14:25:15",
+                "title": "iServer Hum.",
+                "value": 19.8
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2020-02-03T14:15:46",
+                "title": "Building",
+                "value": 100.6
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2020-02-03T14:15:46",
+                "title": "Lab",
+                "value": 102.1
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2020-02-03T10:37:53",
+                "title": "iServer Temp.",
+                "value": 70.3
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2020-02-03T14:34:19",
+                "title": "Coolant",
+                "value": 15.9
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "experiment_type": "Ar/Ar",
+    "extraction": "jan_co2.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "67284",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-306",
+    "irradiation_level": "C",
+    "irradiation_position": 11,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "cdd"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "thermo13"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "b21"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "thermo13"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "thermo13"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "b42"
+        }
+    },
+    "laboratory": "",
+    "latitude": "",
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": "",
+    "mass_spectrometer": "jan",
+    "material": "",
+    "measurement": "jan_co2_whiff_400_120_large.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "",
+    "project": "",
+    "queue_conditionals_name": "",
+    "repository_identifier": "HeizlerSanJuan",
+    "rlocation": null,
+    "sample": "H19-SJ-9",
+    "source": {
+        "emission": 524.192,
+        "trap": 198.483
+    },
+    "spec_sha": "70c98f3f5ef63648e99e42681f737fe9ca061e42",
+    "timestamp": "2020-02-03T14:36:28.754534",
+    "tripped_conditional": {
+        "context": "{'age': 70.82704855617867}",
+        "hash_id": 6644512184340959208,
+        "teststr": "age>62.0"
+    },
+    "unit": null,
+    "username": "",
+    "uuid": "7caec0ad-209e-4549-8466-d5ecdb11e267",
+    "whiff_result": "run_remainder"
+}
